@@ -1079,12 +1079,12 @@ button {
 
 .footer__logo {
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
 }
 
 .footer__description {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .footer__contact {
@@ -1128,7 +1128,7 @@ button {
 }
 
 .footer__links li {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.55rem;
 }
 
 .footer__links a {
