@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeeAutos - Luxury Car Dealership</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Top header section -->
+    <div class="top-header">
+      <div class="container">
+        <div class="top-header__content">
+          <div class="top-header__contact">
+            <a href="mailto:info@teeautos.com" class="top-header__item">
+              <i class="bx bxs-envelope"></i>
+              <span>info@teeautos.com</span>
+            </a>
+            <a href="tel:+2348168271045" class="top-header__item">
+              <i class="bx bxs-phone-call"></i>
+              <span>+234 816 827 1045</span>
+            </a>
+            <div class="top-header__item">
+              <i class="bx bxs-time"></i>
+              <span>Sun - Fri (08 AM - 07 PM)</span>
+            </div>
+          </div>
+
+          <div class="top-header__actions">
+            <a href="#" class="top-header__link">
+              <i class="bx bx-log-in"></i>
+              <span>Login</span>
+            </a>
+            <a href="#" class="top-header__link">
+              <i class="bx bxs-user"></i>
+              <span>Register</span>
+            </a>
+            <div class="top-header__social">
+              <span>Follow Us:</span>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main header section -->
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__content">
+          <a href="/" class="logo">
+            <img src="img/logo/logo.png" alt="TeeAutos Logo" />
+          </a>
+          
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="#" class="main-nav__link active">Home</a></li>
+              <li class="main-nav__item"><a href="#about-us" class="main-nav__link">About Us</a></li>
+              <li class="main-nav__item"><a href="#arrival" class="main-nav__link">New Arrival</a></li>
+              <li class="main-nav__item"><a href="#category" class="main-nav__link">Cars Category</a></li>
+              <li class="main-nav__item"><a href="#testimonials" class="main-nav__link">Testimonials</a></li>
+              <li class="main-nav__item"><a href="#download" class="main-nav__link">Download</a></li>
+            </ul>
+          </nav>
+          
+          <div class="main-header__actions">
+            <button class="icon-btn" aria-label="Search">
+              <i class="bx bx-search"></i>
+            </button>
+            <!-- <button class="icon-btn" aria-label="Cart">
+              <i class="bx bx-cart"></i>
+            </button> -->
+            <a href="#" class="btn btn-primary">
+              <i class="bx bx-plus-circle"></i>
+              <span>Add Listing</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="hero__slider" id="heroSlider">
+        <div class="hero__slide active">
+          <div class="container">
+            <div class="hero__content">
+              <div class="hero__text">
+                <span class="hero__subtitle">Welcome to TeeAutos!</span>
+                <h1 class="hero__title">
+                  NEED A RIDE? <br />
+                  call <span>us</span> anytime.
+                </h1>
+                <p class="hero__description">
+                  Experience luxury transportation like never before with
+                  TeeAutos. From business trips to special occasions, we provide a
+                  seamless blend of comfort, style, and elegance, ensuring every
+                  journey is as enjoyable as the destination.
+                </p>
+                <div class="hero__buttons">
+                  <a href="#about-us" class="btn btn-primary">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    About More
+                  </a>
+                  <a href="#" class="btn btn-outline">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img src="img/home/hero-1.png" alt="Luxury car" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero__slide">
+          <div class="container">
+            <div class="hero__content">
+              <div class="hero__text">
+                <span class="hero__subtitle">Welcome to TeeAutos!</span>
+                <h1 class="hero__title">
+                  ARRIVE IN STYLE, <br />
+                  <span>every</span> time
+                </h1>
+                <p class="hero__description">
+                  Our premium car rental services redefine sophistication,
+                  ensuring you arrive at your destination in elegance and comfort.
+                </p>
+                <div class="hero__buttons">
+                  <a href="#about-us" class="btn btn-primary">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    About More
+                  </a>
+                  <a href="#" class="btn btn-outline">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img src="img/home/hero-2.webp" alt="Luxury car" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero__slide">
+          <div class="container">
+            <div class="hero__content">
+              <div class="hero__text">
+                <span class="hero__subtitle">Welcome to TeeAutos!</span>
+                <h1 class="hero__title">
+                  UNFORGETTABLE <br />
+                  <span>Experience</span>
+                </h1>
+                <p class="hero__description">
+                  Travel in utmost comfort and luxury with TeeAutos. From our
+                  meticulously maintained vehicles to our impeccable service,
+                  every journey is tailored to exceed your expectations.
+                </p>
+                <div class="hero__buttons">
+                  <a href="#about-us" class="btn btn-primary">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    About More
+                  </a>
+                  <a href="#" class="btn btn-outline">
+                    <i class="bx bxs-right-arrow-alt"></i>
+                    Learn More
+                  </a>
+                </div>
+              </div>
+              <div class="hero__image">
+                <img src="img/home/hero-3.png" alt="Luxury car" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero__controls">
+          <button class="hero__arrow hero__arrow--prev" id="prevSlide" aria-label="Previous slide">
+            <i class="bx bx-chevron-left"></i>
+          </button>
+          <div class="hero__dots" id="heroDots"></div>
+          <button class="hero__arrow hero__arrow--next" id="nextSlide" aria-label="Next slide">
+            <i class="bx bx-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Car search section -->
+    <section class="car-search">
+      <div class="container">
+        <div class="search-panel">
+          <h2 class="search-panel__title">Let's Find Your Perfect Car</h2>
+          
+          <div class="search-panel__form">
+            <div class="form-group">
+              <label for="condition">Car Condition</label>
+              <select id="condition" class="form-control">
+                <option value="">All Status</option>
+                <option value="new">New Car</option>
+                <option value="used">Used Car</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="brand">Brand Name</label>
+              <select id="brand" class="form-control">
+                <option value="">All Brand</option>
+                <option value="bmw">BMW</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="nissan">Nissan</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="model">Car Model</label>
+              <select id="model" class="form-control">
+                <option value="">All Model</option>
+                <option value="3-series">3-Series</option>
+                <option value="camera">Camera</option>
+                <option value="g-tr">G-TR</option>
+                <option value="macan">Macan</option>
+                <option value="n-series">N-Series</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="year">Year</label>
+              <select id="year" class="form-control">
+                <option value="">All Years</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mileage">Mileage</label>
+              <select id="mileage" class="form-control">
+                <option value="">All Mileage</option>
+                <option value="2000">2000 Miles</option>
+                <option value="3000">3000 Miles</option>
+                <option value="4000">4000 Miles</option>
+                <option value="5000">5000 Miles</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="price">Price Range</label>
+              <select id="price" class="form-control">
+                <option value="">All Price</option>
+                <option value="1000-5000">$1,000-$5,000</option>
+                <option value="5000-10000">$5,000-$10,000</option>
+                <option value="10000-20000">$10,000-$20,000</option>
+                <option value="20000-25000">$20,000-$25,000</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="body-type">Body Type</label>
+              <select id="body-type" class="form-control">
+                <option value="">All Body Type</option>
+                <option value="sedan">Sedan</option>
+                <option value="compact">Compact</option>
+                <option value="coupe">Coupe</option>
+                <option value="wagon">Wagon</option>
+              </select>
+            </div>
+            
+            <div class="form-group form-group--full">
+              <button type="submit" class="btn btn-primary btn-block">
+                <i class="bx bx-search"></i>
+                Find Your Car
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about-us">
+      <div class="container">
+        <div class="about__content">
+          <div class="about__images">
+            <img src="img/market/01.png" alt="Luxury car" class="about__main-image" />
+            <div class="about__badge">
+              <img src="img/market/2.png" alt="Service badge" />
+              <span>30 years of<br>quality service</span>
+            </div>
+          </div>
+          
+          <div class="about__text">
+            <div class="section-header">
+              <span class="section-header__subtitle">
+                <i class="bx bx-car"></i>About Us
+              </span>
+              <h2 class="section-header__title">
+                World largest <span>Car <br>Dealer</span> Marketplace.
+              </h2>
+            </div>
+            
+            <p class="about__description">
+              Experience unmatched comfort and sophistication with TeeAutos
+              executive luxury car service, ideal for business travel, special
+              occasions, and exclusive nightlife services with presence in Lagos,
+              Abuja, Edo, Rivers, Imo, Delta and Akwa Ibom States. Enjoy our sleek
+              sedans and spacious SUVs tailored to your style and needs.
+            </p>
+            
+            <ul class="about__features">
+              <li><i class="bx bx-check-circle"></i>We're also in United States</li>
+              <li><i class="bx bx-check-circle"></i>We're also in Canada</li>
+              <li><i class="bx bx-check-circle"></i>We're also in Germany</li>
+            </ul>
+            
+            <a href="#" class="btn btn-primary">
+              <i class="bx bx-right-arrow-alt"></i>
+              Discover More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat-card">
+            <div class="stat-card__icon">
+              <img src="img/icons/1.png" alt="Cars icon" />
+            </div>
+            <div class="stat-card__number" data-count="500">0</div>
+            <div class="stat-card__label">
+              <i class="bx bx-plus"></i>Available Cars
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-card__icon">
+              <img src="img/icons/2.png" alt="Clients icon" />
+            </div>
+            <div class="stat-card__number" data-count="900">0</div>
+            <div class="stat-card__label">
+              <i class="bx bx-plus"></i>Happy Clients
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-card__icon">
+              <img src="img/icons/3.png" alt="Team icon" />
+            </div>
+            <div class="stat-card__number" data-count="1500">0</div>
+            <div class="stat-card__label">
+              <i class="bx bx-plus"></i>Team Workers
+            </div>
+          </div>
+          
+          <div class="stat-card">
+            <div class="stat-card__icon">
+              <img src="img/icons/4.jpeg" alt="Experience icon" />
+            </div>
+            <div class="stat-card__number" data-count="30">0</div>
+            <div class="stat-card__label">
+              <i class="bx bx-plus"></i>Years of Experience
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New arrivals section -->
+    <section class="arrivals" id="arrival">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-header__subtitle">
+            <i class="bx bx-car"></i>New Arrival
+          </span>
+          <h2 class="section-header__title">
+            Let's check latest <span>cars</span>
+          </h2>
+        </div>
+        
+        <div class="car-grid">
+          <!-- Car Card 1 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/01.jpg" alt="Mercedes Benz" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">Mercedes Benz</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+          
+          <!-- Car Card 2 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/02.jpg" alt="Ferrari" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">Ferrari</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+          
+          <!-- Car Card 3 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/03.jpg" alt="Nissan" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">Nissan</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+          
+          <!-- Car Card 4 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/04.jpeg" alt="BMW" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">BMW</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+          
+          <!-- Car Card 5 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/05.webp" alt="Toyota" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">Toyota</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+          
+          <!-- Car Card 6 -->
+          <div class="car-card">
+            <div class="car-card__image">
+              <img src="img/arrivals/06.jpg" alt="Lamborghini" />
+            </div>
+            <div class="car-card__content">
+              <h3 class="car-card__title">Lamborghini</h3>
+              <div class="car-card__rating">
+                <div class="stars">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star-half"></i>
+                </div>
+                <span class="review-count">5.0 (5.8k Reviews)</span>
+              </div>
+              <div class="car-card__features">
+                <span><i class="bx bx-cog"></i>Automatic</span>
+                <span><i class="bx bx-tachometer"></i>10.15km</span>
+                <span><i class="bx bx-calendar"></i>Model 2023</span>
+                <span><i class="bx bx-gas-pump"></i>Hybrid</span>
+              </div>
+              <a href="misc/reserve.html" class="btn btn-primary btn-block">Reserve</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <button class="btn btn-outline btn-lg" id="loadMoreCars">
+            Load More<i class="bx bx-sync"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Car types section -->
+    <section class="car-types" id="category">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-header__subtitle">
+            <i class="bx bx-car"></i>Car Category
+          </span>
+          <h2 class="section-header__title">
+            Car By Body <span>Types</span>
+          </h2>
+        </div>
+        
+        <div class="type-grid">
+          <div class="type-card">
+            <img src="img/type/01.png" alt="Sedan" />
+            <h3>Sedan</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/02.png" alt="Compact" />
+            <h3>Compact</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/03.png" alt="Convertible" />
+            <h3>Convertible</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/04.png" alt="SUV" />
+            <h3>SUV</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/05.png" alt="Crossover" />
+            <h3>Crossover</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/06.png" alt="Wagon" />
+            <h3>Wagon</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/07.png" alt="Sport" />
+            <h3>Sport</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/08.png" alt="Pickup" />
+            <h3>Pickup</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/09.png" alt="Family MPV" />
+            <h3>Family MPV</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/10.png" alt="Coupe" />
+            <h3>Coupe</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/11.png" alt="Electric" />
+            <h3>Electric</h3>
+          </div>
+          
+          <div class="type-card">
+            <img src="img/type/12.png" alt="Luxury" />
+            <h3>Luxury</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video section -->
+    <section class="video-section">
+      <div class="container">
+        <div class="video-section__content">
+          <a href="#" class="video-play-btn" id="videoPlayBtn" aria-label="Play video">
+            <i class="bx bx-play"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-header__subtitle">
+            <i class="bx bx-car"></i>Testimonials
+          </span>
+          <h2 class="section-header__title">
+            What Our Client <span>Say's</span>
+          </h2>
+        </div>
+        
+        <div class="testimonial-slider" id="testimonialSlider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-card">
+              <div class="testimonial-card__image">
+                <img src="img/client/01.jpeg" alt="Gardo Novak" />
+              </div>
+              <h3 class="testimonial-card__name">Gardo Novak</h3>
+              <span class="testimonial-card__role">Customer</span>
+              <p class="testimonial-card__text">
+                Exceptional service! The car was in perfect condition, and the
+                entire process was seamless. TeeAutos truly delivers luxury and
+                reliability. Highly recommended!
+              </p>
+              <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__image">
+                <img src="img/client/02.jpeg" alt="Client" />
+              </div>
+              <h3 class="testimonial-card__name">Sarah Johnson</h3>
+              <span class="testimonial-card__role">Customer</span>
+              <p class="testimonial-card__text">
+                A top-notch experience! From the booking to the ride, everything
+                was smooth and professional. I'll definitely be using TeeAutos
+                again!
+              </p>
+              <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-card__image">
+                <img src="img/client/03.jpg" alt="Client" />
+              </div>
+              <h3 class="testimonial-card__name">Michael Chen</h3>
+              <span class="testimonial-card__role">Customer</span>
+              <p class="testimonial-card__text">
+                Unmatched quality and comfort. The vehicle selection is
+                outstanding, and the customer service is excellent. TeeAutos
+                exceeded my expectations!
+              </p>
+              <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-controls">
+            <button class="testimonial-arrow testimonial-arrow--prev" id="prevTestimonial" aria-label="Previous testimonial">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <div class="testimonial-dots" id="testimonialDots"></div>
+            <button class="testimonial-arrow testimonial-arrow--next" id="nextTestimonial" aria-label="Next testimonial">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div
+    </section>
+
+    <!-- Download app section -->
+    <section class="app-download" id="download">
+      <div class="container">
+        <div class="app-download__content">
+          <div class="app-download__text">
+            <div class="section-header">
+              <span class="section-header__subtitle">
+                <i class="bx bx-car"></i>Get Our App
+              </span>
+              <h2 class="section-header__title">
+                Download <span>our TeeAutos</span><br>
+                app for free
+              </h2>
+            </div>
+            
+            <p class="app-download__description">
+              Luxury at your fingertips! Get the TeeAutos app now and enjoy
+              seamless car bookings, exclusive deals, and a smooth driving
+              experience—available on Google Play and the App Store.
+            </p>
+            
+            <div class="app-download__buttons">
+              <a href="#" class="app-btn app-btn--google">
+                <img src="img/download/play-store.png" alt="Google Play" />
+                <div class="app-btn__text">
+                  <span>Get it on</span>
+                  <strong>Google Play</strong>
+                </div>
+              </a>
+              
+              <a href="#" class="app-btn app-btn--apple">
+                <img src="img/download/app-store.png" alt="App Store" />
+                <div class="app-btn__text">
+                  <span>Get it on</span>
+                  <strong>App Store</strong>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="app-download__image">
+            <img src="img/download/01.png" alt="TeeAutos mobile app" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__column">
+            <a href="/" class="footer__logo">
+              <img src="img/logo/logo-1.png" alt="TeeAutos Logo" width="50" />
+            </a>
+            <p class="footer__description">
+              Experience unmatched comfort and sophistication with TeeAutos'
+              executive luxury car service.
+            </p>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="bx bx-phone"></i>
+                <span>+234 816 827 1045</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="bx bx-location-plus"></i>
+                <span>24B Milford Road, New York</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="bx bx-envelope"></i>
+                <span>info@teeautos.com</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Quick Links</h3>
+            <ul class="footer__links">
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Home</a></li>
+              <li><a href="#about-us"><i class="bx bx-chevron-right"></i>About Us</a></li>
+              <li><a href="#arrival"><i class="bx bx-chevron-right"></i>New Arrival</a></li>
+              <li><a href="#category"><i class="bx bx-chevron-right"></i>Cars Category</a></li>
+              <li><a href="#testimonials"><i class="bx bx-chevron-right"></i>Testimonials</a></li>
+              <li><a href="#download"><i class="bx bx-chevron-right"></i>Downloads</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Support Center</h3>
+            <ul class="footer__links">
+              <li><a href="#"><i class="bx bx-chevron-right"></i>FAQ's</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Affiliates</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Booking Tips</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Sell Vehicle</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Contact Us</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Sitemap</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Newsletter</h3>
+            <p class="footer__description">
+              Subscribe to our newsletter to receive updates and special offers.
+            </p>
+            <form class="footer__form">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit" class="btn btn-primary">
+                Subscribe Now <i class="bx bxl-telegram"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            &copy; Copyright 2025 <span>TeeAutos</span> All Rights Reserved.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Modal for video -->
+    <div class="modal" id="videoModal">
+      <div class="modal__content">
+        <button class="modal__close" id="closeModal" aria-label="Close modal">
+          <i class="bx bx-x"></i>
+        </button>
+        <div class="modal__body">
+          <div class="video-container">
+            <iframe width="560" height="315" src="" title="TeeAutos Promotional Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

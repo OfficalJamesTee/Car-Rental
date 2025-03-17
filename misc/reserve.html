@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserve a Car - TeeAutos</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../misc/reserve.css" />
+  </head>
+  <body>
+    <!-- Top header section -->
+    <div class="top-header">
+      <div class="container">
+        <div class="top-header__content">
+          <div class="top-header__contact">
+            <a href="mailto:info@teeautos.com" class="top-header__item">
+              <i class="bx bxs-envelope"></i>
+              <span>info@teeautos.com</span>
+            </a>
+            <a href="tel:+2348168271045" class="top-header__item">
+              <i class="bx bxs-phone-call"></i>
+              <span>+234 816 827 1045</span>
+            </a>
+            <div class="top-header__item">
+              <i class="bx bxs-time"></i>
+              <span>Sun - Fri (08 AM - 07 PM)</span>
+            </div>
+          </div>
+
+          <div class="top-header__actions">
+            <a href="#" class="top-header__link">
+              <i class="bx bx-log-in"></i>
+              <span>Login</span>
+            </a>
+            <a href="#" class="top-header__link">
+              <i class="bx bxs-user"></i>
+              <span>Register</span>
+            </a>
+            <div class="top-header__social">
+              <span>Follow Us:</span>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main header section -->
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header__content">
+          <a href="../index.html" class="logo">
+            <img src="../img/logo/logo.png" alt="TeeAutos Logo" />
+          </a>
+          
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a href="../index.html" class="main-nav__link">Home</a></li>
+              <li class="main-nav__item"><a href="../index.html#about-us" class="main-nav__link">About Us</a></li>
+              <li class="main-nav__item"><a href="../index.html#arrival" class="main-nav__link">New Arrival</a></li>
+              <li class="main-nav__item"><a href="../index.html#category" class="main-nav__link">Cars Category</a></li>
+              <li class="main-nav__item"><a href="../index.html#testimonials" class="main-nav__link">Testimonials</a></li>
+              <li class="main-nav__item"><a href="../index.html#download" class="main-nav__link">Download</a></li>
+            </ul>
+          </nav>
+          
+          <div class="main-header__actions">
+            <button class="icon-btn" aria-label="Search">
+              <i class="bx bx-search"></i>
+            </button>
+            <button class="icon-btn" aria-label="Cart">
+              <i class="bx bx-cart"></i>
+            </button>
+            <a href="#" class="btn btn-primary">
+              <i class="bx bx-plus-circle"></i>
+              <span>Add Listing</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page header -->
+    <section class="page-header">
+      <div class="container">
+        <div class="page-header__content">
+          <h1 class="page-header__title">Car Rental Services</h1>
+          <div class="page-header__breadcrumb">
+            <a href="../index.html">Home</a>
+            <i class="bx bx-chevron-right"></i>
+            <span>Car Rental Services</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation section -->
+    <section class="reservation">
+      <div class="container">
+        <div class="reservation__content">
+          <div class="reservation__info">
+            <h2 class="reservation__title">Car Rental Services</h2>
+            <p class="reservation__description">
+              Experience unmatched comfort and sophistication with TeeAutos'
+              executive luxury car service. Ideal for business travel, special
+              occasions, and exclusive nightlife services. Enjoy our sleek luxury cars
+              tailored to your style and needs. For budget-friendly journeys, choose
+              TeeAutos' economy car options, offering reliable and executive
+              transportation without compromising on comfort and safety. Whether it's
+              a luxurious ride or a smart, affordable journey, TeeAutos guarantees
+              exceptional service for every occasion. With our 24hrs operational
+              service, it's never too late to book a ride. Style and comfort await.
+            </p>
+          </div>
+          
+          <div class="reservation__form-container">
+            <h2 class="reservation__form-title">Reserve Your Vehicle</h2>
+
+            <form class="reservation__form">
+              <!-- Personal Information Section -->
+              <div class="form-section">
+                <h3 class="form-section__title">Personal Information</h3>
+                
+                <div class="form-group">
+                  <label for="fullname">Full Name:</label>
+                  <div class="form-row">
+                    <div class="form-col">
+                      <input type="text" id="firstname" class="form-control" placeholder="John" required />
+                      <span class="form-hint">First</span>
+                    </div>
+                    <div class="form-col">
+                      <input type="text" id="lastname" class="form-control" placeholder="Doe" required />
+                      <span class="form-hint">Last</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" class="form-control" placeholder="your.email@example.com" required />
+                </div>
+                
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" class="form-control" placeholder="+1 (555) 123-4567" required />
+                </div>
+              </div>
+              
+              <!-- Rental Details Section -->
+              <div class="form-section">
+                <h3 class="form-section__title">Rental Details</h3>
+                
+                <div class="form-group">
+                  <label for="pickup">Pick-up Location:</label>
+                  <input type="text" id="pickup" class="form-control" placeholder="Enter address, airport, or city" required />
+                </div>
+                
+                <div class="form-group">
+                  <label for="pickup-date">Pick-up Date and Time:</label>
+                  <div class="form-row">
+                    <div class="form-col">
+                      <input type="date" id="pickup-date" class="form-control" required />
+                      <span class="form-hint">Date</span>
+                    </div>
+                    <div class="form-col">
+                      <input type="time" id="pickup-time" class="form-control" required />
+                      <span class="form-hint">Time</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="duration">Duration (days):</label>
+                  <input type="number" id="duration" class="form-control" min="1" placeholder="1" required />
+                </div>
+              </div>
+              
+              <!-- Vehicle Preferences Section -->
+              <div class="form-section">
+                <h3 class="form-section__title">Vehicle Preferences</h3>
+                
+                <div class="form-group">
+                  <label>Car Type:</label>
+                  <div class="checkbox-group">
+                    <div class="checkbox-container">
+                      <input type="checkbox" id="luxury" name="car-type" value="luxury" />
+                      <label for="luxury" class="checkbox-label">Executive Luxury Car</label>
+                    </div>
+                    <div class="checkbox-container">
+                      <input type="checkbox" id="economy" name="car-type" value="economy" />
+                      <label for="economy" class="checkbox-label">Economic Car</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="car-model">Choose a car:</label>
+                  <select id="car-model" name="car-model" class="form-control" required>
+                    <option value="" disabled selected>Select a car model</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="bmw">BMW</option>
+                  </select>
+                </div>
+                
+                <div class="form-group">
+                  <label for="additional">Additional Requests/Instructions/Specific Vehicle(s):</label>
+                  <textarea name="additional" id="additional" class="form-control" rows="4" placeholder="Enter any special requirements or preferences here..."></textarea>
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-block">Reserve Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__column">
+            <a href="/" class="footer__logo">
+              <img src="../img/logo/logo-1.png" alt="TeeAutos Logo" width="50" />
+            </a>
+            <p class="footer__description">
+              Experience unmatched comfort and sophistication with TeeAutos'
+              executive luxury car service.
+            </p>
+            <div class="footer__contact">
+              <div class="footer__contact-item">
+                <i class="bx bx-phone"></i>
+                <span>+234 816 827 1045</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="bx bx-location-plus"></i>
+                <span>24B Milford Road, New York</span>
+              </div>
+              <div class="footer__contact-item">
+                <i class="bx bx-envelope"></i>
+                <span>info@teeautos.com</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Quick Links</h3>
+            <ul class="footer__links">
+              <li><a href="../index.html"><i class="bx bx-chevron-right"></i>Home</a></li>
+              <li><a href="../index.html#about-us"><i class="bx bx-chevron-right"></i>About Us</a></li>
+              <li><a href="../index.html#arrival"><i class="bx bx-chevron-right"></i>New Arrival</a></li>
+              <li><a href="../index.html#category"><i class="bx bx-chevron-right"></i>Cars Category</a></li>
+              <li><a href="../index.html#testimonials"><i class="bx bx-chevron-right"></i>Testimonials</a></li>
+              <li><a href="../index.html#download"><i class="bx bx-chevron-right"></i>Downloads</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Support Center</h3>
+            <ul class="footer__links">
+              <li><a href="#"><i class="bx bx-chevron-right"></i>FAQ's</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Affiliates</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Booking Tips</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Sell Vehicle</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Contact Us</a></li>
+              <li><a href="#"><i class="bx bx-chevron-right"></i>Sitemap</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer__column">
+            <h3 class="footer__title">Newsletter</h3>
+            <p class="footer__description">
+              Subscribe to our newsletter to receive updates and special offers.
+            </p>
+            <form class="footer__form">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit" class="btn btn-primary">
+                Subscribe Now <i class="bx bxl-telegram"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            &copy; Copyright 2025 <span>TeeAutos</span> All Rights Reserved.
+          </p>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
+
