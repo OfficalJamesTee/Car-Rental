@@ -173,13 +173,13 @@ nextTestimonial.addEventListener("click", () => {
   resetTestimonialInterval();
 });
 
-// Video Modal
-videoPlayBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  videoModal.classList.add("active");
-  // Set video URL (replace with your actual video URL)
-  videoIframe.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
-});
+// // Video Modal
+// videoPlayBtn.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   videoModal.classList.add("active");
+//   // Set video URL (replace with your actual video URL)
+//   videoIframe.src = "https://youtu.be/1I--jJr0Fcg?si=9xeXA8ob4Fwq9LLA";
+// });
 
 closeModal.addEventListener("click", () => {
   videoModal.classList.remove("active");
